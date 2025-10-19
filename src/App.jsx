@@ -4,7 +4,7 @@ import Header from "./components/Header.jsx";
 import CoreConcept from "./components/CoreConcept.jsx";
 import TabButton from "./components/TabButton.jsx";
 
-import { CORE_CONCEPTS, EXAMPLES } from "./Data.js";
+import { CORE_CONCEPTS, EXAMPLES } from "./data.js";
 
 function App() {
   const [selectedTopic, setSelectedTopic] = useState(); // start with a default topic
